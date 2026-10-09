@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meet's personal portfolio showcasing interests and projects in IT, coding, and robotics.">
+    <title>Meet | My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav-container" aria-label="Main navigation">
+            <a class="brand" href="#home">Meet<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">IT STUDENT · ASPIRING DEVELOPER</p>
+                <h1>Hi, I'm Meet.<br><span>I build things with code.</span></h1>
+                <p class="hero-description">
+                    I'm an IT student who enjoys programming, web development,
+                    and experimenting with technology and robotics.
+                </p>
+                <a class="button" href="#projects">Explore my projects <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="hero-decoration" role="img" aria-label="Decorative illustration of code symbols">
+                <span class="code-symbol">&lt;/&gt;</span>
+                <span class="code-caption">LEARN · BUILD · IMPROVE</span>
+            </div>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="section-heading">
+                <p class="eyebrow">A LITTLE ABOUT ME</p>
+                <h2>Curious by nature.</h2>
+            </div>
+            <div class="about-content">
+                <div class="profile-placeholder" role="img" aria-label="Illustrated profile placeholder with the letter M">
+                    <span>M</span>
+                </div>
+                <div>
+                    <p>
+                        I'm a student interested in software development, problem-solving,
+                        and creating useful digital experiences. I like learning new tools
+                        and turning ideas into working projects.
+                    </p>
+                    <p>
+                        Outside of coding, I enjoy video games and exploring how technology
+                        works. I'm currently building my skills one project at a time.
+                    </p>
+                    <div class="skill-list" aria-label="Areas of interest">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        <span>C++</span><span>Robotics</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects-section">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I'VE BEEN WORKING ON</p>
+                <h2>Featured projects</h2>
+                <p class="section-intro">A few examples of projects and ideas I'm exploring.</p>
+            </div>
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-number" aria-hidden="true">01</div>
+                    <h3>Personal Portfolio</h3>
+                    <p>A responsive portfolio website made with HTML, CSS, and JavaScript.</p>
+                    <p class="project-tag">Web Development</p>
+                </article>
+                <article class="project-card">
+                    <div class="project-number" aria-hidden="true">02</div>
+                    <h3>Smart Assistive Stick</h3>
+                    <p>An assistive technology concept using sensors to detect nearby obstacles.</p>
+                    <p class="project-tag">Electronics · IoT</p>
+                </article>
+                <article class="project-card">
+                    <div class="project-number" aria-hidden="true">03</div>
+                    <h3>Line-Following Robot</h3>
+                    <p>A small robotics project exploring motor control and IR sensor readings.</p>
+                    <p class="project-tag">Robotics · Arduino</p>
+                </article>
+            </div>
+            <p class="project-note">Project descriptions are examples—edit them to accurately reflect your own work before submitting.</p>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2>Thanks for stopping by.</h2>
+            <p>Click below to say hello!</p>
+            <button id="contactButton" class="button" type="button">Say hello</button>
+            <p id="message" class="interaction-message" aria-live="polite"></p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© <span id="year">2026</span> Meet · Built with HTML, CSS &amp; JavaScript</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+</body>
+</html>
